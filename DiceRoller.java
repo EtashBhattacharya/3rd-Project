@@ -11,7 +11,8 @@ public class DiceRoller {
 	String a=input.nextLine();
 	//Initializing the random class
 	Random rand=new Random();
-	
+
+	//If statement in order to ask user if they want to roll a dice or flip a coin. 
 	if (a.equals("Yes")|| a.equals("yes")) {
 		System.out.println("Awesome now you have to choose 1:to Roll Dice, 2:Flip Coin ");
 		int d=input.nextInt();
@@ -37,6 +38,7 @@ public class DiceRoller {
 			
 		
 	}
+	
 	else {
 		System.out.println("Maybe later have a good day");
 	}
